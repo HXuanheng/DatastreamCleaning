@@ -19,7 +19,7 @@ fields = "fields.xlsx"
 id_company = "identifiers.xlsx"
 
 in_folder ="resources/parameters/"
-out_folder="results/"
+out_folder="results/to_be_upgraded/"
 
 def get_parameter(fields,fid):
     df = pd.read_excel(in_folder+fields, engine='openpyxl')
