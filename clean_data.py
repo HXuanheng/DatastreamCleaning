@@ -8,7 +8,6 @@ import time
 import numpy as np
 from openpyxl.utils.dataframe import dataframe_to_rows
 
-#file_name = "prova.xlsx"
 id_company = "identifiers.xlsx"
 
 in_par_folder = "resources/parameters/"
